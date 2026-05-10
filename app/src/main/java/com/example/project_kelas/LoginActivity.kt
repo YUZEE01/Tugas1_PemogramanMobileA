@@ -40,8 +40,7 @@ class LoginActivity : AppCompatActivity() {
             }else if(passwordLogin != password){
                 binding.editTextPassword.error = "Password salah"
             }else{
-                var loginSuccess : String = "Login Berhasil"
-                Toast.makeText(this, loginSuccess, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "login Berhasil", Toast.LENGTH_SHORT).show()
 
                 val intentMainMenu = Intent(this, MainMenuActivity::class.java)
                 intentMainMenu.putExtra("USERNAME", usernameLogin)
