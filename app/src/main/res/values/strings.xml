@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project_Kelas</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">LOGIN</string>
+    <string name="Register">Register</string>
+    <string name="confirmPass">"Confirm Password</string>
+    <string name="fullName">Fullname</string>
+    <string name="welcomeUser">Welcome, %1$s</string>
+</resources>

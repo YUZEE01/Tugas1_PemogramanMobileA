@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/Username"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:hint="@string/Username"
+        android:autofillHints="@string/Username"
+        android:inputType="text"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/Password"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/confirmPass"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/editTextConfirmPass"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:hint="@string/confirmPass"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/fullName"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/editTextFullname"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:hint="@string/fullName"
+        android:inputType="text"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/buttonRegis"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Register"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"/>
+</LinearLayout>
